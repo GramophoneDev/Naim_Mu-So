@@ -13,17 +13,9 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <h2>{config.heading}</h2>
+        <br></br><br></br><br></br>
         <p>{config.subHeading}</p>
-        <ul className="actions special">
-          <li>
-            <Scroll type="id" element="one">
-              <a href="/#" className="button primary">
-                Explore
-              </a>
-            </Scroll>
-          </li>
-        </ul>
-      </div>
+        </div>
       <Scroll type="id" element="one">
         <a href="#one" className="more">
           Learn More
@@ -35,165 +27,101 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
+          The Naim Streaming Platform
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
+            At the heart of every unit in the Naim Mu-So Family of products is the Naim Streaming Platform
             <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            developed by 25 engineers over 3 years to offer the very best performance no matter how you 
+            <br />
+            listen. Found in our $20,000 flagship we now offer this level of performance almost anywhere.
           </p>
         </header>
-        <ul className="icons major">
-          <li>
-            <span className="icon fa-gem major style1">
-              <span className="label">Lorem</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon fa-heart major style2">
-              <span className="label">Ipsum</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon solid fa-code major style3">
-              <span className="label">Dolor</span>
-            </span>
-          </li>
-        </ul>
       </div>
     </section>
 
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
-          <img src={pic1} alt="" />
-        </div>
-        <div className="content">
-          <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
-          </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-          </p>
-        </div>
-      </section>
-      <section className="spotlight">
-        <div className="image">
           <img src={pic2} alt="" />
         </div>
         <div className="content">
           <h2>
-            Tortor dolore feugiat
+            Naim Mu-So V1
             <br />
-            elementum magna
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+          Mu-so is Naim's first wireless music system. Finely tuned by specialist engineers in England,
+          commanding 450 watts of power through six custom-designed speakers to create an experience of
+          music that has to be heard to be believed.
           </p>
+          <div className="strikethrough">MSRP:$1499</div>
+          <a href="https://gramophone-online-store.myshopify.com/cart/17702826055:1?channel=buy_button" target="_blank" rel="noopener noreferrer">
+          <button>
+            Add To Cart For Price
+          </button>
+          </a>
+          <br />
         </div>
       </section>
+
       <section className="spotlight">
         <div className="image">
-          <img src={pic3} alt="" />
+          <img id="qb" src={pic3} alt="" />
         </div>
         <div className="content">
           <h2>
-            Augue eleifend aliquet
-            <br />
-            sed condimentum
+            Naim Mu-So QB
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+          Mu-so Qb is alive with custom features. From the contours of the glass-filled polymer casing to the bass radiators that help create huge low frequencies. Mu-so Qb delivers a staggering 300 watts of power that unmasks your music with a sound that defies size.
           </p>
+          <div className="strikethrough">MSRP:$999</div>
+          <a href="https://gramophone-online-store.myshopify.com/cart/17385923911:1?channel=buy_button" target="_blank" rel="noopener noreferrer">
+          <button>
+            Add To Cart For Price
+          </button>
+          </a>
         </div>
       </section>
-    </section>
-
-    <section id="three" className="wrapper style3 special">
-      <div className="inner">
-        <header className="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
+    <section className="spotlight">
+        <div className="image">
+          <img src={pic1} alt="" />
+        </div>
+        <div className="content">
+          <h2>
+            Naim Mu-So V2
             <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+          </h2>
+          <p>
+          Mu-so 2nd Generation is the successor to the multiple award-winning Mu-so wireless music system,
+           re-engineered for class-leading performance,functionality and usability by our experts here in 
+           Salisbury, England.
           </p>
-        </header>
-        <ul className="features">
-          <li className="icon fa-paper-plane">
-            <h3>Arcu accumsan</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-laptop">
-            <h3>Ac Augue Eget</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-code">
-            <h3>Mus Scelerisque</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-headphones-alt">
-            <h3>Mauris Imperdiet</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-heart">
-            <h3>Aenean Primis</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-flag">
-            <h3>Tortor Ut</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-        </ul>
-      </div>
-    </section>
+          <br />
+          <a href="https://gramophone-online-store.myshopify.com/cart/20475623211062:1?channel=buy_button" target="_blank" rel="noopener noreferrer">
+          <button>
+            Buy Now
+          </button>
+          </a>
+          <br />
+        </div>
+      </section>
+      </section>
 
     <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
-          <h2>Arcue ut vel commodo</h2>
+          <h2>Looking For Other Naim Products?</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
+            Follow the link to visit Naim's main product page for more information on the complete line of Naim products.
           </p>
         </header>
         <ul className="actions stacked">
+          <br/>
+          <br />
           <li>
-            <a href="/#" className="button fit primary">
-              Activate
-            </a>
-          </li>
-          <li>
-            <a href="/#" className="button fit">
+            <a href="https://www.naimaudio.com/products" target="_blank" rel="noopener noreferrer" className="button fit">
               Learn More
             </a>
           </li>

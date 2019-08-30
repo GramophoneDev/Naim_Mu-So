@@ -7,9 +7,9 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  pathPrefix: `/Naim-Mu-So/`, // This path is subpath of your hosting https://domain/portfolio
+  heading: 'Naim Mu-So',
+  subHeading: 'The Premium Wireless Speaker Your Music Deserves',
   // social
   socialLinks: [
     {

@@ -43,6 +43,8 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		text-decoration: none;
+		color: white;
 	}
 
 	article, aside, details, figcaption, figure,
@@ -147,7 +149,6 @@
 
 	a {
 		@include vendor('transition', ('color #{_duration(transitions)} ease', 'border-bottom-color #{_duration(transitions)} ease'));
-		border-bottom: dotted 1px;
 		color: inherit;
 		text-decoration: none;
 
@@ -598,7 +599,7 @@
 		}
 
 		&.style1 {
-			color: _palette(accent2, bg);
+			color: black;
 		}
 
 		&.style2 {
@@ -1059,6 +1060,7 @@
 	.spotlight {
 		@include vendor('align-items', 'center');
 		@include vendor('display', 'flex');
+		background-color: black;
 
 		.image {
 			@include vendor('order', '1');
@@ -1124,6 +1126,7 @@
 				@include padding(3em, 2em);
 			}
 		}
+		background-color: black;
 	}
 
 /* Wrapper */
@@ -1158,7 +1161,7 @@
 
 			header {
 				p {
-					color: _palette($p, fg-light);
+					color: white;
 				}
 
 				&.major {
@@ -1167,7 +1170,7 @@
 					}
 
 					p {
-						color: _palette($p, fg);
+						color: white;
 					}
 				}
 			}
@@ -1580,7 +1583,8 @@
 	#banner {
 		@include vendor('display', 'flex');
 		@include vendor('flex-direction', 'column');
-		@include vendor('justify-content', 'center');
+		@include vendor('justify-content', 'top');
+		padding-top: 20px;
 		cursor: default;
 		height: 100vh;
 		min-height: 35em;
@@ -1930,4 +1934,22 @@
 				background-color: darken(_palette(bg), 8);
 			}
 		}
+	}
+	#one {
+		color: white;
+		background-color: black;
+	}
+	#two {
+		background-color: black;
+	}
+	#qb {
+		height: 350px;
+		width: 400px;
+		padding-left: 10px;
+	}
+	#mu-so-v2-buy {
+		text-decoration: none!important;
+	}
+	.strikethrough {
+		text-decoration: line-through;
 	}
