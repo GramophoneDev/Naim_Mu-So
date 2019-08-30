@@ -1,16 +1,17 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Spectral', // <title>
-  manifestName: 'Spectral',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'Naim Mu-So', // <title>
+  manifestName: 'Gramophone',
+  manifestShortName: 'Mu-So', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
+  //manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/Naim-Mu-So/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Naim Mu-So',
   subHeading: 'The Premium Wireless Speaker Your Music Deserves',
   // social
+  /* Use if we ever need social Icons at bottom
   socialLinks: [
     {
       style: 'brands',
@@ -31,4 +32,5 @@ module.exports = {
       url: 'mailto:test@example.com',
     },
   ],
+  */
 };
